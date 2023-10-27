@@ -1,0 +1,30 @@
+*{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  /* height:100%; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width:1024px) {
+  html{
+    font-size: 45%;
+  }
+}
+
+@media (max-width:768px) {
+  html{
+    font-size: 35%;
+  }
+}
